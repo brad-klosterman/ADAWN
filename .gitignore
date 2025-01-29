@@ -1,0 +1,7 @@
+._*
+.DS_Store
+**/.git
+**/.svn
+**/.hg
+**/CVS
+**/.DS_Store
