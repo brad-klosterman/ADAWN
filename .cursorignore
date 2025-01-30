@@ -1,0 +1,12 @@
+# Ignore everything except Resources folder
+/*
+!/Resources/
+
+# Still ignore these files even in Resources
+**/.DS_Store
+**/._*
+*.code-workspace
+.vscode/
+.git/
+.gitignore
+.gitattributes 
