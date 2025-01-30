@@ -1,0 +1,5 @@
+# Compiled Documentation from Resources Directory
+
+This file contains all documentation compiled from markdown files in the Resources directory.
+
+--- 
