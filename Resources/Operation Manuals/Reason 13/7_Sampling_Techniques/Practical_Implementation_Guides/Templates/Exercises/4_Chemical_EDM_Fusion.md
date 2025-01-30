@@ -217,3 +217,55 @@ Button 2: Kick Sidechain
 2. Experiment with different breaks
 3. Build effect automation
 4. Save useful presets 
+
+
+## AI Assistance
+
+Which part would you like to start with? Once you let me know, I can guide you through the specific steps, and you can share screenshots of your progress. We can adjust the processing values in real-time based on your samples and preferences.
+
+Guide me through the specific steps of building the EDM kick foundation (layering the sub, punch, and character). I will share screenshots of my progress. We can adjust the processing values in real-time based on my samples and preferences
+
+I'll guide you through building the EDM kick foundation step by step. Let's start with creating the basic structure and then build each layer.
+
+### Step 1: Create Basic Structure
+
+1. Create a new Combinator (right-click rack > Create Combinator)
+2. Name it "BB_EDM_Kick_Engine"
+3. Inside the Combinator, create:
+   - 1 Subtractor (for sub layer)
+   - 1 NN-XT (for punch layer)
+   - 1 Kong (for character layer)
+   - 1 Line Mixer 6:2 (for mixing layers)
+
+### Step 2: Sub Layer Setup (Subtractor)
+
+Let's start with the fundamental sub layer:
+
+1. **Subtractor Settings:**
+   ```
+   - Initialize patch (right-click > Reset Device)
+   - Oscillator 1:
+     - Waveform: Sine
+     - Phase: 0
+     - Octave: 2
+   - Amp Envelope:
+     - Attack: 0ms
+     - Decay: 100ms
+     - Sustain: 0
+     - Release: 50ms
+   - Filter:
+     - Turn off Filter (set to bypass)
+   ```
+
+Could you set this up and share a screenshot? We'll fine-tune these values based on how it sounds in your system.
+
+### Step 3: Routing Check
+
+Before we move to the punch layer:
+1. Route Subtractor to Channel 1 of the Line Mixer
+2. Set the level to about -12dB
+3. Play some notes in the C1-C2 range
+
+Let me know when you've done this and how it sounds. We want a clean, powerful sub with no distortion. If you're hearing any unwanted artifacts or if the decay feels wrong, we can adjust the envelope settings.
+
+Once you confirm the sub layer is working well, we'll move on to setting up the punch layer with the NN-XT. Do you have any specific kick samples you'd like to use for the punch layer?
