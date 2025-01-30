@@ -9,3 +9,7 @@
 *.code-workspace
 Resources/Operation Manuals/Reason 13/Operation Manual (plugins).pdf
 Resources/Operation Manuals/Reason 13/Reason 13 Operation Manual.pdf
+.vscode
+ADAW.code-workspace
+*.code-workspace
+*.iml
